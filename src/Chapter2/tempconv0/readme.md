@@ -1,0 +1,1 @@
+use `go test` to run the test and not `go run tempconv_test.go`
