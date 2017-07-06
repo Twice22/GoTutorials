@@ -86,7 +86,7 @@ func parse(r io.Reader) (n Node, err error) {
 }
 
 // go build Chapter1/Fetch
-// ./Fetch.exe https://www.w3.org/TR/2006/REC-xml11-20060816
+// ./Fetch.exe https://www.w3.org/TR/2006/REC-xml11-20060816 | go run ex7.18.go
 func main() {
 	node, err := parse(os.Stdin)
 	if err != nil {
